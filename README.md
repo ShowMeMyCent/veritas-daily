@@ -32,9 +32,3 @@ git clone https://github.com/yourusername/veritas-daily.git
 
 # enter the project directory
 cd veritas-daily
-
-# install dependencies
-npm install
-
-# start development
-npm run dev
