@@ -32,3 +32,13 @@ git clone https://github.com/yourusername/veritas-daily.git
 
 # enter the project directory
 cd veritas-daily
+
+# Install Node.js dependencies and build assets:
+npm install
+
+# Install Node.js dependencies and build assets:
+npm install
+npm run build
+
+#Start Vite Development Server
+npm run dev
