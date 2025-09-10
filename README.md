@@ -1,69 +1,34 @@
-# React + TypeScript + Vite
+# 📰 Veritas Daily
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Veritas Daily** is a modern, digital-first news platform built for readers who demand **truth, depth, and clarity** in today’s noisy information age.  
+We’re here to **cut through the clutter** and deliver stories that actually matter — whether it’s **breaking news** ⚡, **political insights** 🏛, **tech innovations** 💻, **global events** 🌍, or **culture and lifestyle** 🎭.  
 
-Currently, two official plugins are available:
+Our vision is simple: to create a space where **quality journalism meets modern technology**, giving you the credibility of legacy media with the accessibility and speed of the digital world.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 What We Stand For
+At Veritas Daily, we believe journalism should be:
+- 🧠 **Informative** — more than just headlines, giving you the *why* behind the story.  
+- ⚖️ **Balanced & Honest** — no bias, no hidden agenda, just facts that empower you.  
+- 🌍 **Global yet Local** — we connect worldwide events to your daily reality.  
+- 🚀 **Modern & Engaging** — because good stories deserve beautiful delivery.  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+In short: **we exist to make truth accessible.**
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🎯 What We Offer
+- 🔎 **Breaking News** – Stay updated with real-time, accurate coverage.  
+- 🎨 **Clean & Minimal Design** – A distraction-free reading experience.  
+- 📱 **Fully Responsive** – Seamless access on desktop, tablet, or mobile.  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 Quick Start
+```bash
+# clone this repo
+git clone https://github.com/yourusername/veritas-daily.git
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+# enter the project directory
+cd veritas-daily
