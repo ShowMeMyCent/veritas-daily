@@ -20,7 +20,10 @@ const Navbar = () => {
             <div className="text-gray-600">
               {currentDate} • New York, NY • 72°F
             </div>
-            <div className="flex space-x-2 text-gray-600 text-center">
+            <div className="flex space-x-4 text-gray-600 text-center">
+              <a href="/admin" className="hover:text-black text-xs">
+                Admin
+              </a>
               <a href="/login">
                 <button className="hover:text-black flex items-center space-x-2">
               <FontAwesomeIcon icon={['fas', 'arrow-right-to-bracket']} size='lg' />
