@@ -9,8 +9,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/signup" element={<Signup />} />
         <Route path="/article" element={<Article />} />
+        <Route path="/signup" element={<Signup />} />
         {/* Add more routes here */}
         <Route path="*" element={<div className="p-10 text-center text-gray-600">404 - Page Not Found</div>} />
       </Routes>
