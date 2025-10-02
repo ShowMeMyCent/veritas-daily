@@ -4,11 +4,9 @@ const BACKGROUND_IMAGE = "https://images.unsplash.com/photo-1522199710521-72d696
 
 const Signup = () => {
   return (
-    <div 
-      className="min-h-screen w-full flex items-center justify-center p-4 bg-center bg-cover relative"
-      style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(${BACKGROUND_IMAGE})` }}
->
-      <div className="w-full max-w-md bg-white/90 backdrop-blur-md shadow-2xl rounded-lg border border-gray-200">
+    <div className="min-h-screen w-full flex items-center justify-centers relative">
+      <img src={BACKGROUND_IMAGE} className='w-1/2 h-screen object-cover'  alt="" />
+      <div className="w-1/2">
         <div className="px-8 py-4 text-center">
           <img src={Logo} alt="Veritas Logo" className="h-28 mx-auto" />
           <h1 className="font-serif text-3xl font-bold tracking-tight text-gray-900">Create Your Account</h1>

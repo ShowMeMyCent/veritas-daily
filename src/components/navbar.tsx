@@ -28,20 +28,20 @@ const Navbar = () => {
   });
   return (
     <header className="border-b-4 border-black">
-      {/* Top bar with date and weather */}
-      <div className="border-b border-gray-200 py-2">
-        <div className="max-w-7xl mx-auto px-6 flex justify-between items-center text-xs">
-          <div className="text-gray-600">
-            {currentDate} • New York, NY • 72°F
-          </div>
-          <div className="flex space-x-2 text-gray-600 text-center">
-            <a href="/login">
-              <button className="hover:text-black flex items-center space-x-2">
-                <FontAwesomeIcon icon={['fas', 'arrow-right-to-bracket']} size='lg' />
-                <span>Sign In</span></button></a>
+        {/* Top bar with date and weather */}
+        <div className="border-b border-gray-200 py-2">
+          <div className="max-w-7xl mx-auto px-6 flex justify-between items-center text-xs">
+            <div className="text-gray-600">
+              {currentDate} • New York, NY • 72°F
+            </div>
+            <div className="flex space-x-2 text-gray-600 text-center">
+              <a href="/login">
+                <button className="hover:text-black flex items-center space-x-2">
+              <FontAwesomeIcon icon={['fas', 'arrow-right-to-bracket']} size='lg' />
+              <span>Sign In</span></button></a>
+            </div>
           </div>
         </div>
-      </div>
 
       {/* Main header */}
       <div className="py-6">
